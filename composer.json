@@ -1,0 +1,24 @@
+{
+    "name": "user/app-salons",
+    "description": "proyecto",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "User\\AppSalons\\": "src/",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alfonso",
+            "email": "alfonwar2@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
